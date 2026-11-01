@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajay Shekar · Software Engineer</title>
+  <meta name="description" content="Ajay Shekar: software engineer building healthcare platforms, identity security and applied AI systems.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top" id="brand"></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" class="icon-btn" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow" id="title"></p>
+      <h1 id="name"></h1>
+      <p class="lede" id="summary"></p>
+      <div class="cta" id="cta"></div>
+      <ul class="stats" id="stats"></ul>
+    </section>
+
+    <section id="work">
+      <h2>Current work</h2>
+      <div id="experience"></div>
+    </section>
+
+    <section id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <div class="chips" id="filters" role="group" aria-label="Filter projects"></div>
+      </div>
+      <div class="grid" id="project-grid"></div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills" id="skill-list"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Let's talk</h2>
+      <p>Open to conversations about agentic AI, identity security and data platforms.</p>
+      <div class="cta" id="contact-links"></div>
+    </section>
+  </main>
+
+  <footer><span id="footer"></span></footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
